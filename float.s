@@ -45,7 +45,7 @@ fmult:
     ADD W10, W10, #1
 
 skip_norm:
-    // Rounding: check GRS -> guard, round, sticky bits (assume round-to-nearest-even)
+    // Rounding: check GRS -> guard, round, sticky bits (assume round to nearest even num)
     AND X4, X0, #0x7F      // Extract GRS bits 
     LSR X5, X0, #7         // Drop these bits
     CMP X4, #0x40          // Check if rounding is needed
