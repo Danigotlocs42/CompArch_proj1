@@ -4,9 +4,9 @@
 
 fmult:
     // Arguments:
-    // num1, First floating point number, reg X0
-    // num2, Second floating point number, reg X1
-    // result, Return value, reg X0
+    // num1, First floating point number, regX0
+    // num2, Second floating point number, regX1
+    // result, Return value, regX0
     //W#, word is 32bits register
     //X#, doubleword is 64bits register
 
